@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/game.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="player">
+          <div class="text">
+            <h1 class="neonText">
+              <p class="name">PLAYER</p>
+              <p class="pNumber">0</p>
+            </h1>
+          </div>
+          <div id="player_choise_img">
+            
+          </div>
+        </div>
+
+        <div class="comp">
+          <div class="text">
+            <h1 class="neonText">
+              <p class="name">COMPUTER</p>
+              <div class="cNumber">0</div>
+            </h1>
+          </div>
+          <div id="comp_choise_img">
+            
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div id="about_player"></div>
+        <div class="general">
+          <p id="howTo">
+            <img src="./assets/imgs/info.png" width="30px" /><br />
+            Welcome my Rock Paper Scissors game.<br />
+            You can select one of theese items like this<br /><br />
+            Rock: Press "r"<br />
+            Peaper: Press "p"<br />
+            Scissors: Press "s"<br />
+          </p>
+        </div>
+        <div id="about_comp"></div>
+      </div>
+    </main>
+    <script src="./assets/js/game.js"></script>
+  </body>
+</html>
